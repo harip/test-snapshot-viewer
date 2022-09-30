@@ -67,7 +67,7 @@ export class SnapshotRenderPanel {
 	}
 
 	private setPanelHtmlContent(editorContent?: any) {
-		this._panel.title = 'Snahshot Viewer';
+		this._panel.title = 'Snapshot Viewer';
 		this._panel.webview.html = generateMarkup(editorContent);
 	}
 
